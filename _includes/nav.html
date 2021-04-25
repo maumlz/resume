@@ -1,5 +1,5 @@
 <nav id='nav-bar'>
-  <ul>
+  <ul id='menu'>
     {% for item in site.data.nav %}
     <li><a href="{{ item.link }}" 
       {% if page.url == item.link %} 
@@ -8,9 +8,17 @@
         class="current" 
       {% endif %}
       >
-
         {{ item.name }}
       </a></li>
-    {% endfor %}
+    {% endfor %}  
+  </ul>
+
+  <ul id='lang'>
+    <li {% if page.url != "/es/" %} class='hidden' {% endif %}>
+      <a href="{{site.url}}/en/">Inglés</a>
+    </li>
+    <li {% if page.url != "/en/" %} class='hidden' {% endif %}>
+      <a href="{{site.url}}/es/">Spanish</a>
+    </li>
   </ul>
 </nav>

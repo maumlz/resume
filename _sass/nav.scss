@@ -1,36 +1,76 @@
 #nav-bar{
-    overflow: hidden;
     background-color: #333;
     height: 10vh;
+    width: 100%;
 }
 
 #nav-bar ul{
     list-style-type: none;
-}
-
-#nav-bar li{
+    display: inline;
     float: left;
 }
 
-#nav-bar li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 5vh 5vw;
-    text-decoration: none;
+#menu{
+    width: 50%;
 }
 
-#nav-bar li a:hover:not(.current) {
+#menu li{
+    display: inline;
+    float: left;
+    width: 20%;
+}
+
+#menu li a{
+    display: block;
+    padding: 5vh 0vw;
+    width: 100%;
+    text-decoration: none;
+    line-height: 0;
+    text-align: center;
+    color: white;
+}
+
+#menu li a:hover:not(.current) {
     background-color: #111;
     transition: 1s;
 }
 
-#nav-bar li a:active:not(.current) {
+#menu li a:active:not(.current) {
     background-color: #fff;
     transition: 1s;
-
 }
+
 
 .current{
     background-color: #111;
+}
+
+// --------
+
+#lang{
+    position: relative;
+    width: 10%;
+    left: 40%;
+}
+
+#lang li{
+    width: 100%;
+}
+
+#lang li:hover{
+    background-color: #444;
+}
+
+#lang li a{
+    display: block;
+    padding: 5vh 0vw;
+    width: 100%;
+    text-decoration: none;
+    line-height: 0;
+    text-align: center;
+    color: white;
+}
+
+.hidden{
+    display: none;
 }

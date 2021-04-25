@@ -1,5 +1,0 @@
-plugins:
-  - jekyll-multiple-languages-plugin
-# The first item of languages will be used as the default.
-languages: ["es", "en"]
-exclude_from_localizations: ["assets"]
