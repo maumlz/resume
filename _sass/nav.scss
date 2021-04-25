@@ -1,0 +1,36 @@
+#nav-bar{
+    overflow: hidden;
+    background-color: #333;
+    height: 10vh;
+}
+
+#nav-bar ul{
+    list-style-type: none;
+}
+
+#nav-bar li{
+    float: left;
+}
+
+#nav-bar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5vh 5vw;
+    text-decoration: none;
+}
+
+#nav-bar li a:hover:not(.current) {
+    background-color: #111;
+    transition: 1s;
+}
+
+#nav-bar li a:active:not(.current) {
+    background-color: #fff;
+    transition: 1s;
+
+}
+
+.current{
+    background-color: #111;
+}

@@ -1,0 +1,12 @@
+---
+
+---
+
+@media screen {
+    @import "nav";
+    @import "resume";
+}
+
+@media print{
+    @import "print";
+}
