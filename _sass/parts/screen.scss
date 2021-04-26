@@ -1,0 +1,213 @@
+@media (max-width: 600px) {
+    .title1{
+        font-size: 75%;
+    }
+
+    .title2{
+        font-size: 0.75em;
+    }
+
+    .title3{
+        font-size: 0.75em;
+    }
+
+    .content1{
+        font-size: 0.75em;
+    }
+
+    .content2{
+        font-size: 0.75em;
+    }
+
+    .content3{
+        font-size: 0.75em;
+    }
+    
+    .date{
+        font-size: 0.5em;
+    }
+    
+    .skill-container{
+        font-size: 0.45em;
+    }
+    
+    .subtitle{
+        font-size: 0.75em;
+    }
+}
+
+@media (min-width: 600px) {
+    .title1{
+        font-size: 200%;
+    }
+
+    .title2{
+        font-size: 1.5em;
+    }
+
+    .title3{
+        font-size: 1.2em;
+    }
+    
+    .content1{
+        font-size: 1.2em;
+    }
+
+    .content2{
+        font-size: 1.2em;
+    }
+
+    .content3{
+        font-size: 1.2em;
+    }
+
+    .date{
+        font-size: 0.75em;
+    }
+    
+    .skill-container{
+        font-size: 0.9em;
+    }
+    
+    .subtitle{
+        font-size: 1.2em;
+    }
+}
+
+.section {
+    padding: 3vh 5vw 3vh 5vw;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    transition: 0.5s;
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin-top: 5vh;
+}
+
+.row:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+#other .column,
+#about .column {
+    width: 50%;
+}
+
+
+.title1 {
+    font-weight: 700;
+    padding: 1vh 1vw;
+}
+
+.content1 {
+    padding: 1vh 1vw;
+    line-height: 2em;
+}
+
+.title2 {
+    padding: 1vh 1vw;
+    text-align: center;
+    font-weight: 600;
+}
+
+.content2 {
+    padding: 1vh 1vw;
+    width: 80%;
+}
+
+#experience .column {
+    max-width: 80%;
+}
+
+#experience .row {
+
+}
+
+.exp-title {
+    width: 20%;
+}
+
+.title3 {
+    padding: 1vh 1vw;
+    text-align: center;
+    font-weight: 600;
+}
+
+.content3 {
+    padding: 1vh 1vw;
+    line-height: 2em;
+}
+
+.subtitle {
+    font-weight: 600;
+    padding: 1vh 1vw;
+}
+
+.date {
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.skill-container {
+    width: 80%;
+}
+
+.skill-container {
+    width: 80%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.skill-title {
+    width: 20%;
+}
+
+.skill {
+}
+
+.skill span {
+    text-align: center;
+}
+
+.progress-bar {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 2vh;
+}
+
+.progress {
+    background-color: rgb(16, 120, 150);
+}
+
+ul:not(#nav-bar ul) {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.content2 ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.content2 li {
+}
+
+#edu .content2 {
+    max-width: 70%;
+}
+
+.title1,
+.title2,
+.title3 {
+    color: rgb(16, 120, 150);
+}
+
+.abr {
+}
