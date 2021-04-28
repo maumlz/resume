@@ -5,26 +5,19 @@
     font-family: Avenir, Verdana, sans-serif;
     font-size: 11pt;
     text-align: justify;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0.2cm 0.75cm;
     background-color: rgb(241, 243, 244);
 }
 
-#nav-bar{
+#nav-bar, #myCanvas, #img-me, #down {
     display: none;
 }
 
-body {
-    margin-left: 0.75cm;
-    margin-right: 0.75cm;
-    margin-top: 0.2cm;
-    margin-bottom: 0.2cm;
-}
-
-#header {
-    margin-bottom: 0.4cm;
-}
-
-#profile img, #down {
-    display: none;
+#header{
 }
 
 #name {
@@ -32,7 +25,7 @@ body {
     font-weight: 900;
 }
 
-#sub-name {
+#sub-name{
     font-size: 14pt;
     font-style: italic;
 }
@@ -40,56 +33,50 @@ body {
 #contact{
     position: absolute;
     right: 1cm;
-    top: 1cm;
+    top: 1%;
+    text-align: right;
 }
 
 #email {
     color: #107896;
     font-size: 10pt;
     text-decoration: none;
-    
-}
-
-#myCanvas {
-    display: none;
 }
 
 .section {
-    padding-bottom: 0.4cm;
+    margin: 0.1cm 0cm 0.2cm 0cm;
 }
 
-.row {
+.row{
     display: flex;
     flex-flow: row wrap;
 }
 
-#other .column, #about .column {
+#other .column, #about .column{
     width: 50%;
 }
 
 .title1 {
     font-weight: bold;
-    padding-top: 0.2cm;
-    padding-bottom: 0.1cm;
+    padding: 0.15cm 0.25cm;
     border-bottom: solid 2px rgba(0, 0, 0, 0.308);
 }
 
 .content1 {
-    padding-right: 0.5cm;
-    padding-top: 0.1cm;
+    padding: 0.15cm 0.25cm;
 }
 
-.title2 {
+.title2{
     font-weight: bolder;
+    padding: 0.15cm 0.25cm;
     text-align: center;
-    line-height: 0.5cm;
     border-bottom: solid 2px rgba(0, 0, 0, 0.308);
     min-width: 20%;
 }
 
 .content2 {
-    line-height: 0.5cm;
-    padding-left: 0.2cm;
+    width: 100%;
+    padding: 0.15cm 0.25cm;
 }
 
 #experience .column {
@@ -97,27 +84,28 @@ body {
 }
 
 #experience .row {
-    padding-bottom: 0.5cm;
+    margin-bottom: 0.25cm;
+    
 }
 
 .exp-title {
     font-weight: bolder;
     width: 17.5%;
-    padding-bottom: 0.2cm;
+    padding: 0.2cm;
 }
 
 .title3 {
     text-align: center;
-    padding-right: 0.4cm;
-    padding-left: 0.4cm;
 }
 
 .content3 {
+    padding: 0.15cm 0.25cm;
     line-height: 0.5cm;
 }
 
 .subtitle {
     font-weight: bold;
+    padding: 0.15cm 0.25cm;
 }
 
 .date {
@@ -125,9 +113,13 @@ body {
     font-size: 7pt;
     font-weight: lighter;
     font-style: italic;
-    margin-top: 0.5cm;
+    margin-top: 0.2cm;
     padding-left: 20%;
     padding-right: 20%;
+}
+
+.skill-title{
+    width: 20%;
 }
 
 .skill-container {
@@ -138,32 +130,26 @@ body {
 }
 
 .skill {
-    padding: 0.1cm;
-    padding-bottom: 0.1cm;
+    padding: 0.0cm 0.3cm 0.1cm .3cm;
+    margin: 0 0.1cm 0 0.1cm;
+    border-radius: 15px;
+    width: max-content;
+    height: max-content;
+    background-color:#107896;
+    color: white
 }
 
 .skill span {
-    font-size: 7pt;
-}
-
-.progress-bar {
-    background-color: rgba(0, 0, 0, .5);
-    border-radius: 1px;
-    margin-top: 7px;
-    height: 3px;
-}
-
-.progress {
-    border-radius: 1px;
-    margin-top: 5px;
-    height: 3px;
-    background-color: rgb(16, 120, 150);
+    font-size: 6.5pt;
+    // background-color: red;
+    line-height: 0;
 }
 
 ul {
-    padding-left: 0.25cm;
+    padding-left: 0.2cm;
     list-style-position: inside;
     list-style-type: none;
+    
 }
 
 .content2 ul {
@@ -171,9 +157,11 @@ ul {
     padding: 0;
     display: flex;
     flex-flow: row wrap;
+
 }
 
 li {
+    
     font-size: 10pt;
 }
 
@@ -182,7 +170,8 @@ li b {
 }
 
 #edu .content2 {
-    max-width: 70%;
+    max-width: 80%;
+
 }
 
 .title1, .title2, .title3 {

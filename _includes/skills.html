@@ -1,0 +1,19 @@
+<div id='skills' class='section'>
+    <div class='container'>
+        <div id='prog' class='row'>
+            <div class='column skill-title'>
+                <div class='title2'>Languages & software</div>
+            </div>
+            <div class=' column skill-container'>
+
+                {% for skill in site.data.skills %}
+                    <div class='skill'>
+                        <span>
+                            {{ skill.skill }}
+                        </span>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

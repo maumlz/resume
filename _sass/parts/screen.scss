@@ -153,36 +153,6 @@
     font-weight: lighter;
 }
 
-.skill-container {
-    width: 80%;
-}
-
-.skill-container {
-    width: 80%;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-}
-
-.skill-title {
-    width: 20%;
-}
-
-.skill {
-}
-
-.skill span {
-    text-align: center;
-}
-
-.progress-bar {
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 2vh;
-}
-
-.progress {
-    background-color: rgb(16, 120, 150);
-}
 
 ul:not(#nav-bar ul) {
     list-style-position: inside;

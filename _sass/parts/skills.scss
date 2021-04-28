@@ -1,0 +1,41 @@
+#skills{
+    // background-color: red;
+}
+
+.skill-container {
+    // background-color: greenyellow;
+    width: 80%;
+    padding: 1vh 1vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.skill-title {
+    width: 20%;
+    // background-color: green;
+}
+
+.skill {
+    border-radius: 15px;
+    border: thin solid #000;
+    padding: 1vh 1vw;
+    margin: 0.5vh 1vw;
+    width: max-content;
+    height: max-content;
+}
+
+.skill:hover{
+    // color: rgb(16, 120, 150);
+    background-color: rgb(16, 120, 150);
+}
+
+.skill span {
+}
+
+.progress-bar {
+    
+}
+
+.progress {
+}
