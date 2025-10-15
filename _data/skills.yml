@@ -8,8 +8,10 @@
   level: 80%
 - skill: Copilot
   level: 75%
-- skill: JUNit
+- skill: JUnit
 - skill: Mockito
+- skill: Sonar
+- skill: Openshift
 - skill: C
   level: 80%
 - skill: C
