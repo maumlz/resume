@@ -43,10 +43,6 @@ body{
     text-decoration: none;
 }
 
-.section {
-    margin: 3vh 5vw 3vh 5vw;
-}
-
 .row{
     display: flex;
     flex-flow: row wrap;
@@ -79,7 +75,9 @@ body{
     padding: 0.15cm 0.25cm;
 }
 
-#experience .column {
+#experience .column, 
+#skills .column,
+#edu .column {
     max-width: 80%;
 }
 
