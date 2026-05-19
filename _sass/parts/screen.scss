@@ -84,7 +84,6 @@
     transition: 0.5s;
     box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
     border-radius: 15px;
-    margin-top: 5vh;
 }
 
 .row:hover {
@@ -92,8 +91,8 @@
     transition: 0.5s;
 }
 
-#other .column,
-#about .column {
+#other + #about
+.column {
     width: 50%;
 }
 
@@ -122,10 +121,6 @@
 #experience + #skills
 .column {
     max-width: 80%;
-}
-
-#experience .row {
-
 }
 
 .exp-title {
@@ -172,9 +167,6 @@ ul:not(#nav-bar ul) {
     flex-flow: row wrap;
 }
 
-.content2 li {
-}
-
 #edu .content2 {
     max-width: 70%;
 }
@@ -183,7 +175,4 @@ ul:not(#nav-bar ul) {
 .title2,
 .title3 {
     color: rgb(16, 120, 150);
-}
-
-.abr {
 }
