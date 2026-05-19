@@ -116,7 +116,7 @@
 
 .content2 {
     padding: 1vh 1vw;
-    width: 80%;
+    line-height: 2em;
 }
 
 #experience .column, 
@@ -160,13 +160,6 @@
 ul:not(#nav-bar ul) {
     list-style-position: inside;
     list-style-type: none;
-}
-
-.content2 ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-flow: row wrap;
 }
 
 .title1,
