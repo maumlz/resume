@@ -119,7 +119,8 @@
     width: 80%;
 }
 
-#experience .column {
+#experience + #skills
+.column {
     max-width: 80%;
 }
 
