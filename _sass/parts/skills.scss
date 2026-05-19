@@ -1,9 +1,4 @@
-#skills{
-    // background-color: red;
-}
-
 .skill-container {
-    // background-color: greenyellow;
     width: 80%;
     padding: 1vh 1vw;
     display: flex;
@@ -13,7 +8,6 @@
 
 .skill-title {
     width: 20%;
-    // background-color: green;
 }
 
 .skill {
@@ -26,16 +20,5 @@
 }
 
 .skill:hover{
-    // color: rgb(16, 120, 150);
     background-color: rgb(16, 120, 150);
-}
-
-.skill span {
-}
-
-.progress-bar {
-    
-}
-
-.progress {
 }

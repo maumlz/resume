@@ -75,7 +75,7 @@
 }
 
 .section {
-    padding: 3vh 5vw 3vh 5vw;
+    margin: 3vh 5vw 3vh 5vw;
 }
 
 .row {
@@ -84,7 +84,7 @@
     transition: 0.5s;
     box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
     border-radius: 15px;
-    margin-top: 5vh;
+    margin-bottom: 20px;
 }
 
 .row:hover {
@@ -92,7 +92,7 @@
     transition: 0.5s;
 }
 
-#other .column,
+#other .column, 
 #about .column {
     width: 50%;
 }
@@ -116,15 +116,13 @@
 
 .content2 {
     padding: 1vh 1vw;
-    width: 80%;
+    line-height: 2em;
 }
 
-#experience .column {
+#experience .column, 
+#skills .column,
+#edu .column {
     max-width: 80%;
-}
-
-#experience .row {
-
 }
 
 .exp-title {
@@ -140,6 +138,11 @@
 .content3 {
     padding: 1vh 1vw;
     line-height: 2em;
+
+    ul {
+      list-style-position:inside !important;
+      list-style-type: disc !important;
+    }
 }
 
 .subtitle {
@@ -159,25 +162,8 @@ ul:not(#nav-bar ul) {
     list-style-type: none;
 }
 
-.content2 ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.content2 li {
-}
-
-#edu .content2 {
-    max-width: 70%;
-}
-
 .title1,
 .title2,
 .title3 {
     color: rgb(16, 120, 150);
-}
-
-.abr {
 }

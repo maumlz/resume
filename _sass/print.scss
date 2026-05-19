@@ -43,10 +43,6 @@ body{
     text-decoration: none;
 }
 
-.section {
-    margin: 0.1cm 0cm 0.2cm 0cm;
-}
-
 .row{
     display: flex;
     flex-flow: row wrap;
@@ -79,7 +75,9 @@ body{
     padding: 0.15cm 0.25cm;
 }
 
-#experience .column {
+#experience .column, 
+#skills .column,
+#edu .column {
     max-width: 80%;
 }
 
@@ -101,6 +99,11 @@ body{
 .content3 {
     padding: 0.15cm 0.25cm;
     line-height: 0.5cm;
+
+    ul {
+      list-style-position:inside !important;
+      list-style-type: disc !important;
+    }
 }
 
 .subtitle {
