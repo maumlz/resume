@@ -11,7 +11,7 @@
 - skill: JUnit
 - skill: Mockito
 - skill: Sonar
-- skill: Openshift
+- skill: OpenShift
 - skill: C
   level: 80%
 - skill: C
@@ -24,7 +24,7 @@
   level: 20%
 - skill: HTML
   level: 80%
-- skill: Javascript
+- skill: JavaScript
   level: 50%
 - skill: CSS
   level: 10%
@@ -36,9 +36,9 @@
   level: 50%
 - skill: MongoDB
   level: 10%
-- skill: ReactJS
+- skill: React.js
   level: 20%
-- skill: ThreeJs
+- skill: Three.js
   level: 80%
 - skill: Heroku
   level: 50%
@@ -48,6 +48,6 @@
   level: 20%
 - skill: R
   level: 20%
-- skill: Github
+- skill: GitHub
   level: 20%
 
