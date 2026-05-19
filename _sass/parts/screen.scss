@@ -84,6 +84,7 @@
     transition: 0.5s;
     box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
     border-radius: 15px;
+    margin-bottom: 20px;
 }
 
 .row:hover {
@@ -166,10 +167,6 @@ ul:not(#nav-bar ul) {
     padding: 0;
     display: flex;
     flex-flow: row wrap;
-}
-
-#edu .content2 {
-    max-width: 70%;
 }
 
 .title1,
