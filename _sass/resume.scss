@@ -137,6 +137,11 @@
 .content3 {
    padding: 15px;
    line-height: 2em;
+
+   ul {
+      list-style-position:inside;
+      list-style-type:circle;
+   }
 }
 
 .subtitle {
